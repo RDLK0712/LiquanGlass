@@ -1,0 +1,480 @@
+.articlebox{
+    width: 100%;
+    padding: 10%;
+    padding-left: 15%;
+    background-color: rgba(255, 255, 255);
+}
+.trans{
+    background-color: rgba(0,150,255,0.1);
+}
+.title{
+    font-size: 60px;
+    margin-bottom: 5%;
+    color: #36a88a;
+    font-weight: 700;
+    margin-left: 40%;
+}
+.Administration ul{
+    list-style-type: square;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.Administration li{
+    width: 40%;
+    font-size: 30px;
+    margin: 20px 50px;
+}
+@media screen and (Max-Width:  1000px) {
+    .Administration li{
+        width: 100%;
+    }
+}
+@media screen and (Max-Width:  600px) {
+    
+    .title{
+        font-size: 30px;
+        margin-bottom: 5%;
+        color: #36a88a;
+        font-weight: 700;
+        margin-left:0%;
+    }
+    .articlebox{
+        padding: 3%;
+    }
+    .Administration li{
+        font-size: 20px;
+    }
+    .Administration ul{
+        justify-content: none;
+    }
+    
+}
+body{
+    background-color: rgba(0,150,255,0.1);
+}
+.box{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0px 10px 50px black;
+    z-index: 1;
+}
+.box header{
+    width: 100%;
+    text-align: center;
+    padding: 2% 0;
+    font-size: 60px;
+    background-color: lightgrey;
+}
+.squarebox{
+    width: 100%;
+    display: flex;
+}
+.Businessbox{
+    background-image: url(/img/Academics/1.jpg);
+    background-size: 100% 100%;
+    
+}
+.Businessbox:hover .Business{
+    background-color: rgb(163, 255, 163,0.7);
+    transition: 0.5s;
+}
+.Industrialbox{
+    background-image: url(/img/Academics/2.jpg);
+    background-size: 100% 100%;
+}
+.Industrialbox:hover .Industrial{
+    background-color: rgba(64, 224, 208, 0.7);
+    transition: 0.5s;
+}
+.Informationbox{
+    background-image: url(/img/Academics/3.jpg);
+    background-size: 100% 100%;
+}
+.Informationbox:hover .Information{
+    background-color: rgb(146, 57, 57,0.7);
+    transition: 0.5s;
+}
+.Financebox{
+    background-image: url(/img/Academics/4.jpg);
+    background-size: 100% 100%;
+}
+.Financebox:hover .Finance{
+    background-color: rgba(163, 255, 163, 0.7);
+    transition: 0.5s;
+}
+.squarebkg{
+    width: 50%;
+    transition: 0.5s;
+}
+.square{
+    display: flex;
+    width: 100%;
+    height: 60vh;
+    padding: 0 3%;
+}
+.squarebkg:hover{
+    width: 80%;
+    transition: 0.5s;
+}
+.title{
+    font-size: 45px;
+    align-self: center;
+}
+.Business{
+    background-color: rgb(163, 255, 163);
+}
+.Industrial{
+    background-color: turquoise;
+}
+.Information{
+    background-color: rgb(146, 57, 57);
+}
+.Finance{
+    background-color: sandybrown;
+}
+.CEPMbox{
+    width: 100%;
+    background-image: url(/img/Academics/5.jpg);
+    background-size: 100% 100%;
+}
+.CEPM{
+    background-color: rgb(163, 55, 206);
+    transition: 0.5s;
+}
+.CEPMbox:hover .CEPM{
+    background-color: rgba(163, 55, 206,0.8);
+    height: 80vh;
+    transition: 0.5s;
+}
+.containerbox{
+    width: 100%;
+    padding: 5% 0;
+    
+}
+.programsbox{
+    width: 80%;
+    border: 2px solid black;
+    margin: 0 auto;
+}
+.programsbox header{
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    border-bottom: 2px solid black;
+    padding: 2% 0;
+    background-color: rgb(190, 93, 48);
+}
+.programs{
+    display: flex;
+    background-color: burlywood;
+}
+.imgbox{
+    padding: 2%;
+}
+.imgbox img{
+    width: 400px;
+    height: 400px;
+}
+.word{
+    display: flex;
+    width: 70%;
+    padding: 2%;
+    font-size: 30px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.word p{
+    width: 100%;
+}
+.researchbox{
+    width: 80%;
+    margin: 5% auto;
+    padding: 1%;
+    border: 2px solid black;
+    background-color: #D06D2F;
+}
+.researchbox header{
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 1%;
+}
+.research{
+    border: 2px solid black;
+    padding: 1%;
+    background-color: burlywood;
+    box-shadow: 0px 0px 20px rgb(77, 52, 30) inset;
+}
+.textbox{
+    padding: 3%;
+}
+.texttitle{
+    font-size: 30px;
+    width: 100%;
+    padding: 2% 0;
+    text-align: center;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 2em;
+    margin: 0;
+    box-shadow: 0px 0px 10px black;
+    background-color:rgb(223, 151, 88);
+}
+.text{
+    display: none;
+    width: 92%;
+    margin: 0 auto;
+    background-color: white;
+    border: 2px solid rgba(26, 25, 25, 0.829);
+    padding: 1% 3%;
+    font-size: 25px;
+    background-color:rgb(223, 151, 88);
+}
+.facultiesbox{
+    width: 80%;
+    border: 2px solid black;
+    margin: 0 auto;
+}
+.facultiesbox header{
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    border-bottom: 2px solid black;
+    padding: 2% 0;
+    background-color: rgb(190, 93, 48);
+}
+.facultiescontainer{
+    background-color: burlywood;
+}
+.faculties{
+    display: flex;
+    
+}
+.fimgbox{
+    padding: 2%;
+    align-self: center;
+}
+.fimgbox img{
+    width: 400px;
+    height: 400px;
+}
+.fwordbox{
+    width: 70%;
+}
+.fwordup{
+    border-bottom: 2px solid black;
+}
+.fword{
+    display: flex;
+    padding: 2% 1%;
+    font-size: 25px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.fword p{
+    width: 100%;
+}
+.ftable{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+.bst{
+    width: 100%;
+    border-top: 2px solid black;
+    background-color: #383cf8;
+    box-shadow: 0px -10px 50px black;
+}
+.bst header{
+    width: 100%;
+    text-align: center;
+    padding: 2%;
+    font-size: 30px;
+}
+.bstword{
+    width: 100%;
+    font-size: 25px;
+    padding: 5%;
+}
+@media screen and (Max-Width:  1300px){
+    .fword{
+        font-size: 20px;
+    }
+}
+@media screen and (Max-Width:  1100px){
+    .title{
+        font-size: 30px;
+    }
+    .programs{
+        flex-wrap: wrap;
+    }
+    .imgbox{
+        width: 100%;
+        text-align: center;
+    }
+    .word{
+        width: 100%;
+        font-size: 25px;
+    }
+    .texttitle{
+        font-size: 20px;
+    }
+    .text{
+        font-size: 16px;
+    }
+    .faculties{
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+    }
+    .fwordbox{
+        width: 100%;
+    }
+    .fimgbox{
+        width: 100%;
+        text-align: center;
+    }
+}
+@media screen and (Max-Width:  600px){
+    .box header{
+        font-size: 25px;
+    }
+    .square{
+        height: 30vh;
+    }
+    .CEPMbox:hover .CEPM{
+        height: 40vh;
+    }
+    .title{
+        font-size: 20px;
+    }
+    .word{
+        font-size: 20px;
+    }
+    .imgbox img{
+        width: 300px;
+        height: 300px;
+    }
+    .fimgbox img{
+        width: 300px;
+        height: 300px;
+    }
+    .texttitle{
+        font-size: 16px;
+    }
+    .text{
+        font-size: 14px;
+    }
+    .bst header{
+        font-size: 22px;
+    }
+    .bstword{
+        font-size: 18px;
+    }
+}
+@media screen and (Max-Width:  450px){
+    .word{
+        font-size: 15px;
+    }
+    .imgbox img{
+        width: 200px;
+        height: 200px;
+    }
+    .fimgbox img{
+        width: 200px;
+        height: 200px;
+    }
+    .fword{
+        font-size: 16px;
+    }
+}
+
+
+/* ----------------
+Footer section
+ ---------------------*/
+
+ .footer-section {
+    padding: 65px 0;
+    background: #353649;
+  }
+  
+  .footer-widget {
+    margin-bottom: 40px;
+  }
+  
+  .footer-widget h5 {
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 35px;
+    padding-top: 15px;
+  }
+  
+  .footer-widget ul {
+    list-style: none;
+  }
+  
+  .footer-widget ul li a {
+    display: block;
+    color: #acaebc;
+    padding: 2px 0;
+    margin-bottom: 8px;
+  }
+  
+  .footer-social a {
+    display: inline-table;
+    width: 25px;
+    height: 25px;
+    border: 1px solid #7e7f8f;
+    border-radius: 50%;
+    color: #7e7f8f;
+    font-size: 12px;
+    text-align: center;
+    margin-right: 6px;
+    margin-bottom: 5px;
+  }
+  
+  .footer-social a i {
+    vertical-align: middle;
+    display: table-cell;
+  }
+  
+  .copyright {
+    padding-top: 10px;
+    font-size: 16px;
+    color: #83869b;
+  }
+  
+  .copyright a {
+    color: #83869b;
+    text-decoration: underline;
+  }
+  
+  .set-bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+  }
+  
+  .text-white h1,
+  .text-white h2,
+  .text-white h3,
+  .text-white h4,
+  .text-white h5,
+  .text-white h6,
+  .text-white p,
+  .text-white span,
+  .text-white li,
+  .text-white a {
+    color: #fff;
+  }
+  
+  /* Small Mobile :320px. */
+  
+  @media only screen and (max-width: 479px) {
+    .features-section {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
